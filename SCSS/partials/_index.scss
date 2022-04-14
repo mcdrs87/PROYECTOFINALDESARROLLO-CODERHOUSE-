@@ -1,0 +1,49 @@
+.bg-lav {
+  background-color: var(--lav-light);
+}
+
+.btn-lav {
+  color: $fondofooter;
+  background-color: var(--lav);
+  border-color: var(--lav);
+  display: flex;
+  justify-content: center;
+}
+
+.btn-lav:hover {
+  color: #fff;
+  background-color: $fondofooter;
+  border-color: #020202;
+  transform: scale(0.9);
+}
+// MIXIN Destacados
+@mixin destacados {
+  font-family: $fontppal;
+  border-top: 0.1rem;
+  font-weight: bold;
+}
+.H1Destacados {
+  @include destacados();
+}
+// MIXIN Contacto
+@mixin contactomx {
+  background-color: $fondocontacto;
+  font-family: $fontppal;
+  text-align: justify;
+}
+.contacto {
+  @include contactomx();
+  h2 {
+    border-top: 0.1rem;
+    font-weight: bold;
+  }
+}
+// MIXIN Frecuentes
+@mixin preguntas {
+  font-family: $fontppal;
+  border-top: 0.1rem;
+  font-weight: bold;
+}
+.H2Frecuentes {
+  @include preguntas();
+}

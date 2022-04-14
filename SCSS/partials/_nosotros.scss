@@ -1,0 +1,74 @@
+// ANIDACION DE DIVS //
+
+.containerEmpresa {
+  background-color: $fondocontacto;
+
+  &--nosotros {
+    h2 {
+      text-align: center;
+      color: $colorfuente;
+      font-family: $fontppal;
+      letter-spacing: $spacing;
+      font-weight: bold;
+    }
+    p {
+      font-size: 18px;
+      text-align: justify;
+      letter-spacing: $spacingp;
+      padding: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  &--quienesomos {
+    h2 {
+      text-align: center;
+      color: $colorfuente;
+      font-family: $fontppal;
+      letter-spacing: $spacing;
+      font-weight: bold;
+    }
+    p {
+      font-size: 18px;
+      text-align: justify;
+      letter-spacing: $spacingp;
+      padding: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  &--mision {
+    h2 {
+      text-align: center;
+      color: $colorfuente;
+      font-family: $fontppal;
+      letter-spacing: $spacing;
+      font-weight: bold;
+    }
+    p {
+      font-size: 18px;
+      text-align: justify;
+      letter-spacing: $spacingp;
+      padding: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  &--vision {
+    h2 {
+      text-align: center;
+      color: $colorfuente;
+      font-family: $fontppal;
+      letter-spacing: $spacing;
+      font-weight: bold;
+    }
+    p {
+      font-size: 18px;
+      text-align: justify;
+      letter-spacing: $spacingp;
+      padding: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+}

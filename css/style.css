@@ -1,0 +1,205 @@
+/* Reseteo */
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Variables*/
+/* Footer */
+footer {
+  width: 100%;
+  background: #112437;
+  height: 100px;
+  margin-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.anchoFooter {
+  margin-top: 30px;
+}
+
+.redes {
+  display: inline-block;
+}
+
+.bi-facebook {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-facebook:hover {
+  color: #3b5998;
+}
+
+.bi-whatsapp {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-whatsapp:hover {
+  color: #25d366;
+}
+
+.bi-instagram {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-instagram:hover {
+  color: #8a3ab9;
+}
+
+.containerEmpresa {
+  background-color: #0989af;
+}
+
+.containerEmpresa--nosotros h2 {
+  text-align: center;
+  color: #020202;
+  font-family: raleway;
+  letter-spacing: 0.7rem;
+  font-weight: bold;
+}
+
+.containerEmpresa--nosotros p {
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.containerEmpresa--quienesomos h2 {
+  text-align: center;
+  color: #020202;
+  font-family: raleway;
+  letter-spacing: 0.7rem;
+  font-weight: bold;
+}
+
+.containerEmpresa--quienesomos p {
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.containerEmpresa--mision h2 {
+  text-align: center;
+  color: #020202;
+  font-family: raleway;
+  letter-spacing: 0.7rem;
+  font-weight: bold;
+}
+
+.containerEmpresa--mision p {
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.containerEmpresa--vision h2 {
+  text-align: center;
+  color: #020202;
+  font-family: raleway;
+  letter-spacing: 0.7rem;
+  font-weight: bold;
+}
+
+.containerEmpresa--vision p {
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.bg-lav {
+  background-color: var(--lav-light);
+}
+
+.btn-lav {
+  color: #112437;
+  background-color: var(--lav);
+  border-color: var(--lav);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-lav:hover {
+  color: #fff;
+  background-color: #112437;
+  border-color: #020202;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.H1Destacados {
+  font-family: raleway;
+  border-top: 0.1rem;
+  font-weight: bold;
+}
+
+.contacto {
+  background-color: #0989af;
+  font-family: raleway;
+  text-align: justify;
+}
+
+.contacto h2 {
+  border-top: 0.1rem;
+  font-weight: bold;
+}
+
+.H2Frecuentes {
+  font-family: raleway;
+  border-top: 0.1rem;
+  font-weight: bold;
+}
+
+#navmio {
+  background-color: #e1f7fc;
+}
+
+#navmio a {
+  color: black;
+  font-weight: lighter;
+  font-family: raleway;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.H1Tienda {
+  font-family: raleway;
+  border-top: 0.1rem;
+  font-weight: bold;
+}
+
+.clasetienda {
+  background-color: raleway;
+}
+/*# sourceMappingURL=style.css.map */

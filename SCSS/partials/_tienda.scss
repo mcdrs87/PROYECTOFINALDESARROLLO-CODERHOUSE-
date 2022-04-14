@@ -1,0 +1,12 @@
+// MIXIN Tienda
+@mixin tienda {
+  font-family: $fontppal;
+  border-top: 0.1rem;
+  font-weight: bold;
+}
+.H1Tienda {
+  @include tienda();
+}
+.clasetienda {
+  background-color: $fontppal;
+}

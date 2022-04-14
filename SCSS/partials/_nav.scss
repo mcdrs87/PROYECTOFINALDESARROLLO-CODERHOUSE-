@@ -1,0 +1,14 @@
+//MIXIN NAVYLOGO//
+@mixin navlog {
+  color: black;
+  font-weight: lighter;
+  font-family: $fontppal;
+  font-size: 18px;
+  text-decoration: none;
+}
+#navmio {
+  background-color: $fondonavv;
+  a {
+    @include navlog;
+  }
+}
