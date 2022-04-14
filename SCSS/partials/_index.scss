@@ -47,3 +47,57 @@
 .H2Frecuentes {
   @include preguntas();
 }
+// WHATSAPP STIKY
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+// REDES NAV //
+.redesNav {
+  .bi-facebook {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(29, 28, 28);
+  }
+  .bi-facebook:hover {
+    color: #3b5998;
+  }
+  .bi-whatsapp {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(29, 28, 28);
+  }
+  .bi-whatsapp:hover {
+    color: #25d366;
+  }
+  .bi-instagram {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(29, 28, 28);
+  }
+  .bi-instagram:hover {
+    color: #8a3ab9;
+  }
+}

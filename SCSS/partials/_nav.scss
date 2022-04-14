@@ -2,8 +2,9 @@
 @mixin navlog {
   color: black;
   font-weight: lighter;
-  font-family: $fontppal;
-  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
   text-decoration: none;
 }
 #navmio {
