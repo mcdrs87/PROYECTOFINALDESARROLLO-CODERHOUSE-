@@ -1,11 +1,11 @@
 //MIXIN NAVYLOGO//
 @mixin navlog {
-  color: black;
+  color: $fondofooter;
   font-weight: lighter;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 22px;
   text-decoration: none;
+  align-items: baseline;
 }
 #navmio {
   background-color: $fondonavv;

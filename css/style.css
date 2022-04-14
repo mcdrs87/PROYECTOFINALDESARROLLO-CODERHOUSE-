@@ -159,14 +159,14 @@ footer {
 }
 
 .H1Destacados {
-  font-family: raleway;
+  font-family: "Roboto Condensed", sans-serif;
   border-top: 0.1rem;
   font-weight: bold;
 }
 
 .contacto {
   background-color: #0989af;
-  font-family: raleway;
+  font-family: "Roboto Condensed", sans-serif;
   text-align: justify;
 }
 
@@ -176,7 +176,7 @@ footer {
 }
 
 .H2Frecuentes {
-  font-family: raleway;
+  font-family: "Roboto Condensed", sans-serif;
   border-top: 0.1rem;
   font-weight: bold;
 }
@@ -245,21 +245,23 @@ footer {
 }
 
 #navmio a {
-  color: black;
+  color: #112437;
   font-weight: lighter;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 22px;
   text-decoration: none;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .H1Tienda {
-  font-family: raleway;
+  font-family: "Roboto Condensed", sans-serif;
   border-top: 0.1rem;
   font-weight: bold;
 }
 
 .clasetienda {
-  background-color: raleway;
+  background-color: "Roboto Condensed", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
